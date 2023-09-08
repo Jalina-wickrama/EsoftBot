@@ -1,0 +1,327 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "What's Up"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you, How can I help you",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "Can you help me",
+        "please help me",
+        "help me",
+        "help"
+      ],
+      "responses": [
+        "I can guide you ",
+        "I can provide support"
+      ]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": [
+        "I forgot my Login password?",
+        "what to do when someone forgets Login password?",
+        "Forgot Wifi password"
+      ],
+      "responses": [
+        "Please enter your email id ,we will send a link on your email"
+      ]
+    },
+    {
+      "tag": "email_id",
+      "patterns": [
+        "@gmail.com"
+      ],
+      "responses": [
+        "Link has been shared.Please change your password"
+      ]
+    },
+    {
+      "tag": "search_department",
+      "patterns": [
+        "I want to know the various departments in this campus",
+        "How many departments we have in esoft"
+      ],
+      "responses": [
+        "The departments are IT,Managment,Sceience and Engineering"
+      ]
+    },
+    {
+      "tag": "connect_people",
+      "patterns": [
+        "I want to meet the head of HR/IT/Projects department",
+        "I want to meet head of IT"
+      ],
+      "responses": [
+        "Please ask from receptionist"
+      ]
+    },
+    {
+      "tag": "student_satisfaction",
+      "patterns": [
+        "how was the student response",
+        "Is the students happy?",
+        "what was the student feedback?"
+      ],
+      "responses": [
+        "Students are happy and have given good ratings so far"
+      ]
+    },
+    {
+      "tag": "maintainence",
+      "patterns": [
+        "maintainence related queries recorded",
+        "is lift working"
+      ],
+      "responses": [
+        "lift is not working"
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": [
+        "what is the discount rate?",
+        "Commission rate on each product?"
+      ],
+      "responses": [
+        "discount rate is 5% on courses after early bird deadline,25% for early bird registrations"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "Marry me",
+        "I love You",
+        "date me",
+        "chat with me",
+        "I am bored"
+      ],
+      "responses": [
+        "Please ask organisation related query."
+      ]
+    },
+    {
+      "tag": "noans",
+      "patterns": [
+        "why",
+        "how",
+        "when",
+        "I",
+        "you"
+      ],
+      "responses": [
+        "Can't Understand Your Question",
+        "please elaborate your question"
+      ]
+    },
+    {
+      "tag": "students count",
+      "patterns": [
+        "How many students are studying at esoft?",
+        "esoft student count",
+        "how many students"
+      ],
+      "responses": [
+        "We have a 10K Plus Minds together"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name?",
+        "what should I call you?",
+        "I am"
+      ],
+      "responses": [
+        "I'm Esoft",
+        "Hey!I'm Esoft"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "how you doing?",
+        "how are you"
+      ],
+      "responses": [
+        "Thanks For Asking!How can I help you?"
+      ]
+    },
+    {
+      "tag": "Weather",
+      "patterns": [
+        "what is the weather today?"
+      ],
+      "responses": [
+        "It's 36C according to accuweather"
+      ]
+    },
+    {
+      "tag": "leave",
+      "patterns": [
+        "when is esoft leave?",
+        "Is esoft leave today?",
+        "Is leave today?",
+        "Is today is a leave?"
+      ],
+      "responses": [
+        "Sunday and Public Holidays!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "Opening hours of the esoft?",
+        "when does the esoft open",
+        "esoft opening time",
+        "what are the esoft opening times",
+        "opening time"
+      ],
+      "responses": [
+        "It is open from Monday-Saturday 9:00am-5:30pm"
+      ]
+    },
+    {
+      "tag": "lecturehall",
+      "patterns": [
+        "where is IT Lab?",
+        "Where is programme manager cabin?",
+        "where is lecture hall",
+        "guide me to the canteen"
+      ],
+      "responses": [
+        "It Lab is in Block-A 3rd floor 1st room",
+        "Canteen is in Block-B 2nd Floor",
+        "Lecture hall is in Block-D Ground Floor"
+      ]
+    },
+    {
+      "tag": "lecturesS",
+      "patterns": [
+        "do we have lecture today?",
+        "is there any lecture today",
+        "do we have lectures",
+        "when is lecture starting"
+      ],
+      "responses": [
+        "Please check your MS Teams Calender"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Joke",
+        "Make me laugh"
+      ],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+      ],
+      "responses": [
+        "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age"
+      ],
+      "responses": [
+        "I was made in 2022 By Esoft, if that's what you are asking!"
+      ]
+    },
+    {
+      "tag": "training",
+      "patterns": [
+        "Do you provide industrial training?",
+        "Do you deliver webinars on cybersecurity?",
+        "Do you provide Summer training?",
+        "Do you conduct workshops?"
+      ],
+      "responses": [
+        "Yes, we provide trainings in Cybersecurity",
+        "Yes, we conduct workshops on Cybersecurity",
+        "Yes, we conduct webinars on cybersecurity"
+      ]
+    }
+  ]
+}
